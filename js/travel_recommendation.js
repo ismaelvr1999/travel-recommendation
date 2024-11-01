@@ -66,12 +66,18 @@ const createCard = (data)=>{
             console.log("No Results Found");
         }
         else if(keywordResult === "temples" || keywordResult === "beaches"){
+            const searchHead = document.createElement("div");
+            searchHead.classList.add("search-head");
+            elementSearchResults.appendChild(searchHead);
             searchResults.forEach(element => {
                 const card = createCard(element);
                 elementSearchResults.appendChild(card);
             });
         }
         else{
+            const searchHead = document.createElement("div");
+            searchHead.classList.add("search-head");
+            elementSearchResults.appendChild(searchHead);
             searchResults.forEach((country) => {
                 country.cities.forEach((city=>{
                     const card = createCard(city);

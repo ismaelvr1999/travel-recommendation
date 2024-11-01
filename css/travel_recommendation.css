@@ -137,6 +137,12 @@ body{
     height: 100%;
     overflow-y: scroll;
 }
+.search-head{
+    width: 30rem;
+    min-height: 30px;
+    border-radius: 8px;
+    background-color:green;
+}
 
 .card-result{
     margin: 10px 0px;
