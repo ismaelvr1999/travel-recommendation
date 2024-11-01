@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Lato" ,Arial;
+}
+
+body{
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    height: 7%;
+    background-color: black;
+    color: white;
+    padding: 10px 5px;
+}
+
+.navbar-title{
+    display: flex;
+    align-items: center;
+}
+.navbar-links {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+} 
+.navbar-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    padding: 0px 10px;
+
+}
+.navbar-links a:hover{
+   text-decoration:underline;
+}
+
+
+.about-us{
+    display: flex;
+    height: 93%;
+    background-image: linear-gradient(to right, rgb(52, 119, 134), transparent 40%), url("../imgs/background-img.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+.social-media-icons svg{
+    display: block;
+    padding: 5px;
+}
+
+.decoration{
+    background-color: white;
+    height: 30%;
+    width: 3px;
+}
+.about-us-info{
+    flex-grow: 1;
+    color: white;
+    margin: 0px 100px;
+}
+
+.about-us-title{
+    margin: 30px 0px;
+    font-size: 6rem;
+}
+
+.about-us-goal{
+    font-size: 1.4rem;
+    padding: 30px 20px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.357);
+}
+
+.about-us-team{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.about-us-team-title{
+    font-size: 5rem;
+}
+
+.card-team{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.357);
+    padding: 20px;
+    border-radius: 5px;
+    width: 20%;
+}
+
+.card-team-body{
+    padding: 15px 5px;
+}
+
+.card-title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 7px 0px;
+}
+.team-role {
+    background-color: rgb(10, 10, 155);
+    padding: 4px 0px;
+    border: grey solid 1px;
+    text-align: center;
+    border-radius: 6px;
+    margin: 7px 0px;
+}

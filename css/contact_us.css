@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Lato" ,Arial;
+}
+
+body{
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    height: 7%;
+    background-color: black;
+    color: white;
+    padding: 10px 5px;
+}
+
+.navbar-title{
+    display: flex;
+    align-items: center;
+}
+.navbar-links {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+} 
+.navbar-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.3rem;
+    padding: 0px 10px;
+
+}
+.navbar-links a:hover{
+   text-decoration:underline;
+}
+
+
+.contact-us{
+    display: flex;
+    height: 93%;
+    background-image: linear-gradient(to right, rgb(52, 119, 134), transparent 40%), url("../imgs/background-img.jpg");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+.social-media-icons svg{
+    display: block;
+    padding: 5px;
+}
+
+.decoration{
+    background-color: white;
+    height: 30%;
+    width: 3px;
+}
+.contact-us-info{
+    display: flex;
+    flex-grow: 1;
+    color: white;
+    margin: 0px 100px;
+}
+.container-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-us-title{
+    margin: 30px 0px;
+    font-size: 6rem;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 100px ;
+}
+
+.contact-us-form{
+    padding: 10px;
+    width: 90%;
+    background-color: rgba(0, 0, 0, 0.371);
+    border-radius: 5px;
+}
+
+.contact-us-form p{
+    font-size: 1.2rem;
+}
+
+.contact-us-form input, 
+.contact-us-form textarea,
+.contact-us-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    background-color: transparent;
+    border: gray solid 1px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.contact-us-form button {
+    background-color: rgb(44, 112, 105);
+    border: none;
+}
